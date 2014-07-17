@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Cameron Martin']
   spec.email         = ['cameronmartin123@gmail.com']
   spec.summary       = %q{Simple Publish/Subscribe for ruby objects}
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/cameron-martin/publish_subscribe'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
