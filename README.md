@@ -4,7 +4,7 @@ Simple Publish/Subscribe pattern for ruby objects. It is like ruby's Observable 
 
 Adding subscriptions is not thread-safe, but if anyone wants this just open an issue and I'll add it.
 
-It adds a public message `subscribe`, and two private methods, `publish` and `subscriptions`,
+It adds a public method `subscribe`, and two private methods, `publish` and `subscriptions`,
 and an instance variable, `@_subscriptions`, to classes that mix in this module.
 
 ## Installation
