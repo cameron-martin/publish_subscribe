@@ -42,6 +42,10 @@ publisher.publish_message
 # :argument
 ```
 
+## TODO
+
+* Investigate possible memory leaks caused by the [lapsed listener problem][llp]. [Weak references][weakref] could be used.
+
 ## Contributing
 
 1. Fork it ( https://github.com/cameron-martin/publish_subscribe/fork )
@@ -49,3 +53,6 @@ publisher.publish_message
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+[llp]: https://en.wikipedia.org/wiki/Lapsed_listener_problem
+[weakref]: http://ruby-doc.org/stdlib-2.1.2/libdoc/weakref/rdoc/WeakRef.html
